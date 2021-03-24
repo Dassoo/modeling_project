@@ -1,0 +1,885 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://d701b0ea-4de4-4c15-87e5-4a02271beadb",
+	"@type": "sc:Manifest",
+	"label": "[Virtues&Vices]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[This manifest contains works by Heinrich Aldegrever or Aldegraf (1502–1555, 1558[1] or 1561) who was a German painter and engraver, Sebald Beham, (1500–1550) who was a German painter and printmaker, and one print by unknown Italian Master. Prints in this manifest are collection of Tarot style drawings of Vices and Virtues, currently owned by Art Institute Chicago]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Art Institute Chicago]",
+	"sequences": [
+		{
+			"@id": "http://08cc88bf-7b8e-45cd-8745-d57160e94660",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://93bd6ba5-2c99-4110-be67-283696b07486",
+					"@type": "sc:Canvas",
+					"label": "Lust, from Virtues and Vices, 1552, Heinrich Aldegrever",
+					"height": 2454,
+					"width": 2182,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://935dc1ce-5928-4a3c-93fe-259a70825f6c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/d01f494b-c160-5d27-9995-ca57350281af/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/d01f494b-c160-5d27-9995-ca57350281af",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2454,
+								"width": 2182
+							},
+							"on": "http://93bd6ba5-2c99-4110-be67-283696b07486"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://d7be3733-2894-43e4-a436-bb562f043684",
+					"@type": "sc:Canvas",
+					"label": "Wrath, from the Vices, 1552, Heinrich Aldegrever",
+					"height": 2886,
+					"width": 1840,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://dc41448c-8071-4f92-b0d0-b0dc15b542a1",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/cba85154-a7a7-2d0c-8fbc-fe2fac1876fe/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/cba85154-a7a7-2d0c-8fbc-fe2fac1876fe",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2886,
+								"width": 1840
+							},
+							"on": "http://d7be3733-2894-43e4-a436-bb562f043684"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://22386184-5321-47c1-aef5-91e96dbeb3a5",
+					"@type": "sc:Canvas",
+					"label": "Avarice, from the Vices, 1552, Heinrich Aldegrever",
+					"height": 2892,
+					"width": 1792,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://e7c58b76-d7d3-4173-ad32-9afce94d3787",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/9430c354-9dab-9d07-aed9-997f9654366d/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/9430c354-9dab-9d07-aed9-997f9654366d",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2892,
+								"width": 1792
+							},
+							"on": "http://22386184-5321-47c1-aef5-91e96dbeb3a5"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://ae1f2adb-f7ca-4afc-9131-e11ef85887e4",
+					"@type": "sc:Canvas",
+					"label": "Envy, from the Vices, 1552, Heinrich Aldegrever",
+					"height": 2898,
+					"width": 1810,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://6a8cbfd8-755b-4629-96d5-8abe0f9bb3ba",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/7ed6de4b-0654-841a-7c48-7a8105c58ff4/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/7ed6de4b-0654-841a-7c48-7a8105c58ff4",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2898,
+								"width": 1810
+							},
+							"on": "http://ae1f2adb-f7ca-4afc-9131-e11ef85887e4"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://3d9b23a4-578e-4683-b283-d283eaf5d105",
+					"@type": "sc:Canvas",
+					"label": "Pride, from the Vices, 1552, Heinrich Aldegrever",
+					"height": 2844,
+					"width": 1810,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://94fdc5c3-47b3-43a4-978f-92ff307f74ae",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/6818171f-2e3b-8379-0d1a-99703ee11d70/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/6818171f-2e3b-8379-0d1a-99703ee11d70",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2844,
+								"width": 1810
+							},
+							"on": "http://3d9b23a4-578e-4683-b283-d283eaf5d105"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://24b7344a-9213-498b-8646-7e0706630aba",
+					"@type": "sc:Canvas",
+					"label": "Gluttony, from the Vices, 1552, Heinrich Aldegrever",
+					"height": 2904,
+					"width": 1828,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://71d8b1db-df47-47dc-b6a6-c6a3795a8efe",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/1a44be51-8978-a5ec-f429-8f29cf6455dc/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/1a44be51-8978-a5ec-f429-8f29cf6455dc",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2904,
+								"width": 1828
+							},
+							"on": "http://24b7344a-9213-498b-8646-7e0706630aba"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://4b132fff-2f46-4f9a-9854-2ec0b0371ceb",
+					"@type": "sc:Canvas",
+					"label": "Idleness, from the Vices, 1552, Heinrich Aldegrever",
+					"height": 2886,
+					"width": 1828,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://15190be6-1aff-4b22-b5b8-777fc79fb0eb",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/334faa20-e872-d540-aa6d-824d94dfaf14/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/334faa20-e872-d540-aa6d-824d94dfaf14",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2886,
+								"width": 1828
+							},
+							"on": "http://4b132fff-2f46-4f9a-9854-2ec0b0371ceb"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://f66f1e7d-cf51-4ddc-bfdb-bf7ebe0db00d",
+					"@type": "sc:Canvas",
+					"label": "Charity, from the Virtues, 1552, Heinrich Aldegrever",
+					"height": 3030,
+					"width": 2044,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://9124066c-41d1-4eff-98a0-226edb76bad6",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/9b0e66b9-928d-4007-ecb6-2768b811181f/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/9b0e66b9-928d-4007-ecb6-2768b811181f",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3030,
+								"width": 2044
+							},
+							"on": "http://f66f1e7d-cf51-4ddc-bfdb-bf7ebe0db00d"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://183eeccf-ab9a-48e9-81d5-90e98d503e91",
+					"@type": "sc:Canvas",
+					"label": "Compassion, from the Virtues, 1552, Heinrich Aldegrever",
+					"height": 3030,
+					"width": 1972,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://bfdb2d49-196a-4c87-b12b-d371f4310e6f",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/4a5ff8d0-3131-754b-e5b5-ac3f5d355c37/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/4a5ff8d0-3131-754b-e5b5-ac3f5d355c37",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3030,
+								"width": 1972
+							},
+							"on": "http://183eeccf-ab9a-48e9-81d5-90e98d503e91"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://e57f6d20-9903-4f01-9d0a-18fb7d451a09",
+					"@type": "sc:Canvas",
+					"label": "Temperance, from the Virtues, 1552, Heinrich Aldegrever",
+					"height": 3006,
+					"width": 1906,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://c222451f-e399-4461-8df5-4fa8136df8a7",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/e19d5c4c-4784-3655-e438-f56dd285b78d/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/e19d5c4c-4784-3655-e438-f56dd285b78d",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3006,
+								"width": 1906
+							},
+							"on": "http://e57f6d20-9903-4f01-9d0a-18fb7d451a09"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://238e7344-c83f-47e5-92bc-b3826b78a904",
+					"@type": "sc:Canvas",
+					"label": "Deligence, from the Virtues, 1552, Heinrich Aldegrever",
+					"height": 2982,
+					"width": 1864,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://67a31a62-a79e-4b49-b875-01b8527a14ff",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": " https:\\/\\/www.artic.edu\\/iiif\\/2\\/b5963384-2853-2e3b-53af-e347a89d897b/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": " https:\\/\\/www.artic.edu\\/iiif\\/2\\/b5963384-2853-2e3b-53af-e347a89d897b",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2982,
+								"width": 1864
+							},
+							"on": "http://238e7344-c83f-47e5-92bc-b3826b78a904"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://610d6369-1e41-4ce2-a38f-4fed0dc23750",
+					"@type": "sc:Canvas",
+					"label": "Patience, 1540, Sebald Beham",
+					"height": 3330,
+					"width": 2212,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://774de392-24a0-40b2-a139-b8726113f329",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/d4571dc8-5be9-3b35-d038-6cd33d12fc05/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/d4571dc8-5be9-3b35-d038-6cd33d12fc05",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3330,
+								"width": 2212
+							},
+							"on": "http://610d6369-1e41-4ce2-a38f-4fed0dc23750"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://2bbcd1be-924b-4551-ba1b-9d4dbe284deb",
+					"@type": "sc:Canvas",
+					"label": "Prudence, plate 35 from Genii and Virtues, 1465, unknown",
+					"height": 2604,
+					"width": 1465,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d8d02a5f-51c2-4637-a290-94459461dd19",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/fe7a0b74-d8fa-4291-608b-14253f837e40/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https:\\/\\/www.artic.edu\\/iiif\\/2\\/fe7a0b74-d8fa-4291-608b-14253f837e40",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2604,
+								"width": 1465
+							},
+							"on": "http://2bbcd1be-924b-4551-ba1b-9d4dbe284deb"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}

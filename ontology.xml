@@ -1,0 +1,57 @@
+<?xmlversion='1.0'?>
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:definition="https://dbpedia.org/ontology/definition"
+    xmlns:description="https://dbpedia.org/ontology/description"
+    xmlns:type="https://dbpedia.org/ontology/type"
+    xmlns:creator="https://dbpedia.org/ontology/creator"
+    xmlns:profession="https://dbpedia.org/ontology/profession"
+    xmlns:name="https://dbpedia.org/ontology/name"
+    xmlns:birthplace="http://dbpedia.org/ontology/birthPlace"
+    xmlns:birthdate="http://dbpedia.org/ontology/birthdate"
+    xmlns:deathdate="http://dbpedia.org/ontology/deathdate">
+
+
+        <rdf:Description rdf:about="https://dbpedia.org/page/Catalogue_of_Vices_and_Virtues">
+            <definition: rdf:resource="https://dbpedia.org/page/Virtue"/>
+            <definition: rdf:resource="https://dbpedia.org/page/Vice"/>
+        </rdf:Description>
+        
+        <rdf:Description rdf:about="https://dbpedia.org/page/Virtue">
+            <description: rdf:resource="https://dbpedia.org/page/Document"/>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="https://dbpedia.org/page/Vice">
+            <description: rdf:resource="https://dbpedia.org/page/Document"/>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="https://dbpedia.org/page/Document">
+            <type: rdf:resource="https://dbpedia.org/page/Text"/>
+            <type: rdf:resource="https://dbpedia.org/page/Iconography"/>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="https://dbpedia.org/page/Text">
+            <type: rdf:resource="https://dbpedia.org/page/Bible"/>
+            <type: rdf:resource="https://dbpedia.org/page/Manuscript"/>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="https://dbpedia.org/page/Iconography">
+            <type: rdf:resource="https://dbpedia.org/page/Drawing"/>
+            <type: rdf:resource="https://dbpedia.org/page/Manuscript"/>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="https://dbpedia.org/page/Artist">
+            <creator: rdf:resource="https://dbpedia.org/page/Drawing"/>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="https://dbpedia.org/page/Heinrich_Aldegrever">
+            <profession: rdf:resource="https://dbpedia.org/page/Artist"/>
+            <dc:name>Heinrich Aldegrever</dc:name>
+            <type: rdf:resource="https://dbpedia.org/page/Person">
+            <dc:birthplace>Paderborn</dc:birthplace>
+            <dc:birthdate>1502</dc:birthdate>
+            <dc:deathdate>1555, 58 or 61</dc:deathdate>
+        </rdf:Description>
+
+</rdf:RDF>
