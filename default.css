@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
 	
-	.
-	{
-		font-family: 'Lexend', sans-serif;
-	}
-
 	html, body
 	{
 		height: 100%;
@@ -15,7 +10,7 @@
 		margin: 0px;
 		padding: 0px;
 		background: #111111;
-		font-family: 'Didact Gothic', sans-serif;
+		font-family: 'Lexend', sans-serif;
 		font-size: 12pt;
 		font-weight: 200;
 		color: #FFF;
