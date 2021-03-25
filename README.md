@@ -1,4 +1,4 @@
-# Modelling and Visualizing Textual Data - Virtues and Vices Exam Project
+# Modelling and Visualizing Textual Data - Virtues and Vices Project
 
 <img src="https://user-images.githubusercontent.com/78917927/112463405-7a1d8b00-8d62-11eb-87cc-245b0c61046d.jpg" width="90%"></img> 
 
