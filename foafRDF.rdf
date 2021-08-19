@@ -1,0 +1,11 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<https://dassoo.github.io//foafRDF.rdf> 
+    a foaf:PersonalProfileDocument ;
+    foaf:maker <https://dassoo.github.io//foafRDF.rdf#me> ;
+    foaf:primaryTopic <https://github.com/Dassoo/> .
+
+<https://dassoo.github.io//foafRDF.rdf#me>
+    a foaf:Person ;
+    foaf:name "Federico Dassiè" ;
+    foaf:workInfoHomepage <https://dassoo.github.io> .
