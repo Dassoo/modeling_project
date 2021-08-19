@@ -1,0 +1,383 @@
+	html, body
+	{
+		height: 100%;
+		scroll-behavior: smooth;
+	}
+	
+	html {
+		scroll-behavior: smooth !important;
+	}
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #111111;
+		font-family: 'Didact Gothic', sans-serif;
+		font-size: 12pt;
+		font-weight: 200;
+		color: #FFF;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: #ee0000;
+	}
+	
+	.container
+{
+	overflow: hidden;
+	margin: 0em auto;
+	width: 1200px;
+}
+
+	
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+		
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	  }
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		padding: 1em 2em 1em 2em;
+		letter-spacing: 0.10em;
+		margin-top: 2em;
+		padding: 1.20em 3em;
+		border: 2px solid rgba(255,255,255,1);
+		border-radius: 6px;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 1em;
+		color: #FFF;
+		background-color: #111111b2;
+	}
+	
+	.button-alt
+	{
+		padding: 1em 2em;
+		border-color: rgba(0,0,0,.8);
+		color: rgba(0,0,0,.8);
+	}
+
+	.button:hover{
+		background-color: #575757;
+		color: white;
+	}
+
+	#outer
+	{
+    width:100%;
+    text-align: center;
+	}
+	
+	.inner
+	{
+    display: inline-block;
+	padding: 15px;
+	}
+		
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+	
+	.title h2
+	{
+		font-size: 2.7em;
+	}
+	
+	.title .byline
+	{
+		font-size: 1.5em;
+		color: rgba(255,255,255,0.60);
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#wrapper
+	{
+		position: relative;
+		padding: 5em 0em 7em 0em;
+		background: #FFF;
+	}
+
+	#header-wrapper
+	{
+		position: relative;
+		padding: 8em 0em 11em 0em;
+		background: #111111 url(images/header-bg.jpg) no-repeat center;
+		background-size: cover;
+	}
+
+	#header
+	{
+		position: relative;
+		padding: 5em 0em;
+	}
+
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	.navbar-brand
+	{
+		padding-left: 3px;
+	}
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding-top: 1.2em;
+		text-align: center;
+	}
+	
+	#banner .title h2
+	{
+		font-size: 4.5em;
+	}
+	
+	#banner .title .byline
+	{
+		font-size: 2em;
+	}
+	
+	#banner .button
+	{
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgba(255,255,255,1);
+		border-radius: 6px;
+		font-weight: 700;
+		font-size: 1em;
+		
+	}
+
+/*********************************************************************************/
+/* Footer                                                                     */
+/*********************************************************************************/
+
+	#footer
+	{
+		overflow: hidden;
+		padding: 3em 0em;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+	
+	#footer p
+	{
+		text-align: center;
+		font-size: 1em;
+		color: rgba(255,255,255,0.3);
+	}
+	
+	#footer a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,0.6);
+	}
+
+	#footer a:hover{
+		text-decoration: none;
+		color: rgba(255, 255, 255, 0.849);
+	}
+
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+	#welcome
+	{
+		position: relative;
+		padding: 7em 0em 7em 0em;
+		background: #111111 url(images/header-bg.png) no-repeat center;
+		background-size: cover;
+		text-align: center;
+	}
+	
+	#welcome .container
+	{
+		width: 1000px;
+		padding: 0px 100px;
+		color: rgba(255,255,255,0.8);
+	}
+	
+	#welcome a
+	{
+		color: rgba(255,255,255,1);
+	}
+
+	#welcome a:hover{
+		color: rgb(175, 175, 175);
+	}
+
+/*********************************************************************************/
+/* Welcome2                                                                       */
+/*********************************************************************************/
+
+#welcome2
+{
+	position: relative;
+	padding: 7em 0em 7em 0em;
+	background: #181818 url(images/header-bg.png) no-repeat center;
+	background-size: cover;
+	text-align: center;
+}
+
+#welcome2 .container
+{
+	width: 1000px;
+	padding: 0px 100px;
+	color: rgba(255,255,255,0.8);
+}
+
+#welcome2 a
+{
+	color: rgba(255,255,255,1);
+}
+
+#welcome2 a:hover{
+	color: rgb(175, 175, 175);
+}
+
+/*********************************************************************************/
+/* Welcome3                                                                      */
+/*********************************************************************************/
+
+#welcome3
+{
+	position: relative;
+	padding: 7em 0em 7em 0em;
+	background: #181818 url(images/header-bg.png) no-repeat center;
+	background-size: cover;
+	text-align: center;
+}
+
+#welcome3 .container
+{
+	width: 1000px;
+	padding: 0px 100px;
+	color: rgba(255,255,255,0.8);
+}
+
+#welcome3 a
+{
+	color: rgba(255,255,255,1);
+}
+
+#welcome3 a:hover{
+	color: rgb(175, 175, 175);
+}
+
+
+/*********************************************************************************/
+/* Card                                                                       */
+/*********************************************************************************/
+
+.card {
+	background-color: rgba(255, 255, 255, 0.082);
+	color: rgba(255,255,255,0.8);
+}
+
+.card-title {
+	font-size: 1.6em;
+}
+
+.container-card
+{
+	overflow: hidden;
+	margin: 0em auto;
+	width: 75%;
+	color: black;
+}
+
+.container-card .title {
+	color: rgba(255,255,255,0.8);
+}

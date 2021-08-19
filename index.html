@@ -3,27 +3,46 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Virtues and Vices Project</title>
+<title></title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<script src="https://cdn.jsdelivr.net/npm/mirador@3.0.0/dist/mirador.min.js"></script>
-	
+<link href="http://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="assets/css/prism.css" rel="stylesheet" />
 </head>
+
 <body>
+	<nav class="navbar navbar-expand-lg navbar fixed-top navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">
+			<img src="">
+		  </a>
+		<a class="navbar-brand" href="#">Modelling Project</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	  
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#welcome2">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#welcome">Viewers</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#welcome3">Modelling & RDF</a>
+			  </li>
+		  </ul>
+		</div>
+	  </nav>
+
+
 	<div id="header-wrapper">
 		<div id="header" class="container">
-			<div id="logo">
-				<h1><a href="#">Modelling Project</a></h1>
-			</div>
-			<div id="menu">
-				<ul>
-					<li><a href="index.html" accesskey="1" title="">Home</a></li>
-					<li><a href="https://github.com/Dassoo/modelling_project/blob/main/README.md" accesskey="2" title="">Readme</a></li>
-				</ul>
-			</div>
 		</div>
 	<div id="banner" class="container">
 		<div class="title">
@@ -32,64 +51,155 @@
 	</div>
 	<div class="container">
 		<div class="title">
-			<span class="byline">Works by German painter and engraver Heinrich Aldegrever or Aldegraf (1502–1555, 1558[1] or 1561), 
-				German printmaker Sebald Beham, (1500–1550), and unknown Italian Master. Prints are graphical representations of Vices and Virtues, 
-				currently owned by Art Institute Chicago.</span>
+			<span class="byline">This project aims at exploring how late Classical and early Medieval origins of metaphorical and allegorical 
+				representations of Virtues and Vices influenced the engravings by 16th-century German artist Heinrich Aldegrever as well as how ‘modelling’
+				 has been used for communicating knowledge for centuries. 
+				We invite you to follow every step of our research to better understand the reasoning behind the realisation of this project. 
+				</span>
+		</div>
+		<div class="title">
+			<div id="outer">
+				<div class="inner"><a href="index.html#welcome2" class="button">Explore</a></div>
+			</div> 
 		</div>
 	</div>
 </div>
-<div id="wrapper">
-	<div id="one-column" class="container">
-		<section class="section">
-			<div class="container">
-			  <div style="height:800px;" id="my-mirador"></div>
-	   
-		  <script type="text/javascript">
-		  var mirador = Mirador.viewer({
-		  "id": "my-mirador",
-		  "manifests": {
-		  "manifest.json" : {
-		  "provider": "IIIF Tutorial University of Venice"
-		   }
-		  },
-		"windows": [
-		  {
-			"loadedManifest": "manifest.json",
-			"canvasIndex": 1,
-			"thumbnailNavigationPosition": 'far-bottom'
-			}
-		  ],
-		selectedTheme:'dark',
-      	themes: {
-         dark: {
-           palette: {
-             type: 'dark',
-             primary: {
-               main: '#80104E',
-             },
-           },
-         },
-      },
-    });
-		</script>
-	   
-		  </div>
-		 </section>
+
+<div id="welcome2">
+	<div class="container">
+		<div class="title">
+			<h2>About the topic</h2>
+		</div>
+		<p style="text-align: left;">According to Francis T. Marchese (2013: p.359), medieval visualization of an abstract notion of virtues and vices is the evidence of 
+			early attempts of visually representing and communicating complex knowledge using allegory. The author defines an allegory as a representational 
+			scheme purpose of which is a delivery of a story through the symbols that have both literal and figurative connotations. In our case, the abstract 
+			idea of virtues and vices is communicated via visual personification that surpasses the limitations of textual learning allowing the viewer to 
+			absorb the knowledge quicker. 
+			Ideas of virtues and vices originated in the moral philosophy writings of Classical Antiquity, initially with four virtues- prudence, justice, 
+			fortitude, temperance. The list of virtues increased to seven in early Christianity with the addition of faith, hope and charity. Vices, on the 
+			other hand, were first identified in their relations to virtues by early Christian scholar Evagrius Ponticus, who analyzed their psychosomatic 
+			and psychological phenomena. 
+			The seven virtues (prudence, justice, fortitude, temperance, faith, hope, charity) and vices (pride, envy, idleness, sadness, avarice, gluttony, 
+			and lust) as we know them now were formally recognized as being of religious importance in the late 6th century by Pope Gregory I.
+			</p>
+		<br>
+		<img src="/images/test.jpg" alt="virtues-and-vices" class="center">	
+		<br><br><p style="text-align: left;">
+			Throughout history, the concepts of virtues and vices have been visualized in various allegorical ways – as a ladder, a tree, and as women characters, 
+			all of which had a goal of guiding the faithful through the confrontation of virtues and vices in Man’s soul. 
+			The display of v&v as female figures dates to the ‘Psychomachia’ (soul battle), written by the Christian poet Prudentius in the late 4th century. It is assumed 
+			that Psychomachia paved the way for a new genre of religious literature and theatrical performances popular in the Middle Ages (Nugent: 2000, p.13-28). Women were 
+			often depicted with masculine characteristics, for example, being dressed in male battle armour, that aimed at conveying the spiritual struggle embodied by these figures. 
+			From the 9th century, they appear with symbolic items - for example, justice with a sword or a scale, temperance with a flame and fortitude with a shield. 
+			By the 16th century, however, very few artists referenced armoured female characters of Prudentius in their works. An exception to this was the Westphalian 
+			print-maker Heinrich Aldegrever (1502-1555), who created two series of engraved images 10x6 cm, one of virtues and one of vices, which Aldegrever chose to 
+			depict as allegorical figures of dynamic female warriors to convey the spiritual struggle, which is linked to the Psychomachia. His illustrations are full 
+			of symbols such as animals that suggest the reference to the heraldic tradition of his time, which would have been familiar to his intended audience. 
+			Each female figure is carrying a banner demonstrating either righteousness or immorality through the symbols. At the bottom of every image the artist 
+			put a sentence in Latin describing the virtue or vice. According to Marie Murphy (2017: p.1-15), Aldegrever’s works should not be seen as solely illustrative, 
+			but also as an instructive tool that helps the viewer to recall moral lessons of the religious texts “yet were able to stand independently of the source material”. 
+		</p>	
 	</div>
 </div>
 
 <div id="welcome">
+	<div class="container-card">
+		<div class="title">
+			<h2>Viewers</h2>
+		</div>
+        <div class="row my-custom-row justify-content-center align-items-center gx-5">
+            <div class="card" style="width: 25rem; margin: 2rem;">
+                <img src="images/virtuestest.jpg" class="card-img-top" alt="image1">
+                <div class="card-body">
+                  <h5 class="card-title">Virtues</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a class="btn btn-secondary" href="virtues.html" role="button">Open Viewer</a>
+                </div>
+              </div>
+              <div class="card" style="width: 25rem; margin: 2rem;">
+                <img src="images/vicestest.jpg" class="card-img-top" alt="image2">
+                <div class="card-body">
+                  <h5 class="card-title">Vices</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				  <a class="btn btn-secondary" href="vices.html" role="button">Open Viewer</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+<div id="welcome3">
 	<div class="container">
 		<div class="title">
-			<h2>What is this?</h2>
+			<h2>Modelling & RDF</h2>
 		</div>
-		<p>This is the project that me, Federico, and Evelina carried out for the exam in Data Modelling at Ca' Foscari University, Venice. It features a little website with a Mirador viewer and other information about the 
-			<a href="https://www.artic.edu/collection?q=virtues">Virtues and Vices</a> theme.</p>
+		<img src="/images/iiif.png" alt="virtues-and-vices" class="center"><br><br>
+		<p style="text-align: left;">First of all, we would like to discuss allegorical visual representations of virtues and vices by Heinrich Aldegrever in the framework of 
+			the theory of signs to show that modelling has been utilised for centuries. 
+			Patrick Sahle (2018: p.183-193) begins his article by exploring ‘Model’ as a five-letter word highlighting the fact that words acquire 
+			their meaning when used in different contexts. Because the notion of ‘model’ is broadly used in fields from science to fashion, it makes 
+			it challenging to give it a formal definition. Here we will use two definitions of modelling, first being discussed by Claas Lattmann 
+			(2018:p.124-147), who pointed out the semiotic framework of Charles S. Peirce’s theory of signs, which proposes that models are a specific 
+			form of sign, namely icons, i.e. signs that are defined as being similar to what they represent. The article identifies three types 
+			of icon/model : “images,” “diagrams,” and “metaphors”. “Images” represent their objects by representing simple qualities of their objects 
+			by way of exhibiting equivalent simple qualities of their own, while “Metaphors” represent their objects by representing semiotic qualities 
+			of their objects by way of exhibiting equivalent semiotic qualities of their own. The engravings of Heinrich Aldegrever can therefore be 
+			seen as a mix of images and metaphors. It means that modelling as such has been used for centuries for communicating complex knowledge 
+			by using icons that stand for select properties of objects they represent. 
+			</p>
+		<br><p style="text-align: left;">
+			Another instance of the model in our project is a diagrammatical representation of the evolvement of our ideas beginning with the notion 
+			of ‘Virtues and Vices’. As mentioned in the article “Modelling: Thinking in Practice. An Introduction” (2018: p.7-33), modelling can 
+			be considered a creative process of reasoning in which meaning is made and negotiated through the creation and manipulation of external 
+			representations. So creation of models in digital humanities can be seen as substitute for experimentation. The object of our model 
+			(virtues and vices) is what the object could potentially be, so experementation with potentiality leads to the reduction of possible 
+			interpretations of the object in question. In the framework of the theory of signs, diagrammatical model we used shows the properties 
+			of ‘virtues and vices’ to unwrap the objective nature of this notion. 
+			</p>
+		<br><p style="text-align: left;">
+			For the diagrammatical model creation we used the ‘Miro’ software which you can see following the link: <a href="https://miro.com/app/board/o9J_l8pKyV0=/">Miro representation</a>. 
+			Our model is conceptual, meaning it is technology-independent representation, more similar to the way mind conceives reality, and contains formal 
+			and standarlized knowledge representation (ontologies) that helps to express the meaning of information (semantics) in order to render content 
+			on the web understandable for the user. It consists of entities, attributes and relations. Attributes describe properties of entities, while 
+			relations involve two entities. 
+		</p><br><br>
+		<img src="/images/iiif.png" alt="virtues-and-vices" class="center"><br><br>
+		<p style="text-align: left;">We used ontologies of our model to create an example of an RDF triple. RDF is a standard for data interchange that is used for representing 
+			highly interconnected data and is the essential part of Linked Open Data protocol. Each RDF statement is a three-part structure consisting of subject, 
+			predicate and object. Each of part of the triple consisting of resources where every resource is identified by a URI (Universal Resource Identifier). 
+			Representing data in RDF allows information to be easily identified, disambiguated and interconnected by AI systems. The two datasets we used were 
+			DBPedia and Wikidata. The vocabulary we used is called FOAF (Friend of a friend), a project devoted to linking people and information using the Web. 
+		</p><br>
+		<p style="text-align: left;">
+			Example of an RDF triple:	
+		</p>
+		<pre>
+			<code class="language-rdf">
+				@prefix foaf: <<http://xmlns.com/foaf/0.1/>http://xmlns.com/foaf/0.1/>.
+
+	<<https://dassoo.github.io//foafRDF.rdf>https://dassoo.github.io//foafRDF.rdf> 
+    a foaf:PersonalProfileDocument;
+    foaf:maker <<https://dassoo.github.io//foafRDF.rdf#me>https://dassoo.github.io//foafRDF.rdf#me>;
+    foaf:primaryTopic <<https://github.com/Dassoo/>https://github.com/Dassoo/>.
+
+	<<https://dassoo.github.io//foafRDF.rdf#me>https://dassoo.github.io//foafRDF.rdf#me>
+    a foaf:Person;
+    foaf:name "Federico Dassiè";
+    foaf:workInfoHomepage <<https://dassoo.github.io>https://dassoo.github.io>.
+			</code>
+		</pre>
 	</div>
 </div>
-<div id="copyright" class="container">
+
+<div id="footer" class="container">
 	<p>&copy; Untitled. All rights reserved. | Photos by <a href="https://www.artic.edu/collection?q=virtues">Artic.edu</a> | Made by <a href="https://github.com/Dassoo" rel="nofollow">Federico Dassiè</a> & <a href="https://github.com/e-gorbacova" rel="nofollow">Evelina Gorbacova</a>.</p>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/mirador@3.0.0/dist/mirador.min.js"></script>
+<script src="assets/js/prism.js"></script>
 
 </body>
 </html>
