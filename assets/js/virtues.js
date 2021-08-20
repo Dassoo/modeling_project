@@ -14,7 +14,7 @@ var mirador = Mirador.viewer({
   "windows": [
     {
       "loadedManifest": MiradorList[i-1],
-      "canvasIndex": 1,
+      "canvasIndex": i,
       "thumbnailNavigationPosition": 'far-bottom'
       }
     ],
