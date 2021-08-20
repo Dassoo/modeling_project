@@ -27,18 +27,22 @@
 			  <a class="nav-link" href="index.html">Home</a>
 			</li>
 			<li class="nav-item">
-			  <a class="nav-link" href="index.html/#welcome2">About</a>
+				<a class="nav-link" href="vices.html">Vices</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="index.html/#welcome">Viewers</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="index.html/#welcome3">Modelling & RDF</a>
-			  </li>
 		  </ul>
 		</div>
 	  </nav>
 
+	<script>
+	    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+		var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+		  return new bootstrap.Popover(popoverTriggerEl)
+		})
+
+		var popover = new bootstrap.Popover(document.querySelector('.example-popover'), {
+  			container: 'body'
+		})
+	</script>
 
 <div id="welcome">
 	<div class="container-card">

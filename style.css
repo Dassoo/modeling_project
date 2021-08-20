@@ -127,6 +127,10 @@
 		color: #FFF;
 		background-color: #111111b2;
 	}
+
+	.button .title{
+		color: black;
+	}
 	
 	.button-alt
 	{
@@ -380,4 +384,16 @@
 
 .container-card .title {
 	color: rgba(255,255,255,0.8);
+}
+
+.tooltip-inner {
+    max-width: 450px;
+    /* If max-width does not work, try using width instead */
+    width: 450px; 
+	font-size: 14px;
+  	padding: 10px 15px 10px 20px;
+  	background: #FFFFFF;
+  	color: rgba(0, 0, 0, 0.89);
+  	border: 2px solid #c5a333;
+  	text-align: left;
 }
