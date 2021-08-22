@@ -30,11 +30,11 @@
 			<li class="nav-item">
 			  <a class="nav-link" href="#welcome2">About</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#welcome">Viewers</a>
-			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" href="#welcome3">Modelling & RDF</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#welcome">Viewers</a>
 			  </li>
 		  </ul>
 		</div>
@@ -102,32 +102,6 @@
 	</div>
 </div>
 
-<div id="welcome">
-	<div class="container-card">
-		<div class="title">
-			<h2>Viewers</h2>
-		</div>
-        <div class="row my-custom-row justify-content-center align-items-center gx-5">
-            <div class="card" style="width: 25rem; margin: 2rem;">
-                <img src="images/virtuestest.jpg" class="card-img-top" alt="image1">
-                <div class="card-body">
-                  <h5 class="card-title">Virtues</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a class="btn btn-secondary" href="virtues.html" role="button">Open List</a>
-                </div>
-              </div>
-              <div class="card" style="width: 25rem; margin: 2rem;">
-                <img src="images/vicestest.jpg" class="card-img-top" alt="image2">
-                <div class="card-body">
-                  <h5 class="card-title">Vices</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				  <a class="btn btn-secondary" href="vices.html" role="button">Open List</a>
-                </div>
-              </div>
-        </div>
-    </div>
-</div>
-
 <div id="welcome3">
 	<div class="container">
 		<div class="title">
@@ -189,6 +163,37 @@
 			</code>
 		</pre>
 	</div>
+</div>
+<div id="welcome">
+	<div class="container-card">
+		<div class="title">
+			<h2>Visualization</h2>
+		</div>
+		<p style="text-align: left;">In order to visualize the series of virtues and vices by Heinrich Aldegrever we used the IIIF manifests available on the website of Art Institute of Chicago and National Gallery of Art. 
+The International Image Interoperability Framework (IIIF) is a model containing a set of open standards for presenting and annotating digital media and ensure rich access to it. Since images are data they can be described with metadata (data about data). With the use of web standarts and protocols such as Json, Web Annotation, Presentation API, IIIF provides information necessary for transmission of cultural knowledge, share of digital image data, migration across technology systems and enhanced online viewing environment. 
+For the image delivery we embedded a mirador software which is open-source, web based viewing platform with the ability to zoom, display, compare and annotate images. IIIF manifests used in this project carries information needed for the mirador viewer to present digitised conent to the user, such as a title and other discriptive information about the object. 
+We included the analysis of symbols of Chastity, Lust, Patience, Wrath, Modesty and Pride depicted by Aldegrever based on the research of Marie Murphy. This analysis provides an insight into the allegorical references used by the artist that aimed at appealing to viewers perception of sin and holiness. Therefore, the user has a possibility to learn the meaning of symbols and explore their visual represenation with the use of mirador. 
+
+		</p> 
+        <div class="row my-custom-row justify-content-center align-items-center gx-5">
+            <div class="card" style="width: 25rem; margin: 2rem;">
+                <img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/341200/1357759/main-image" class="card-img-top" alt="image1">
+                <div class="card-body">
+                  <h5 class="card-title">Virtues</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a class="btn btn-secondary" href="virtues.html" role="button">Open List</a>
+                </div>
+              </div>
+              <div class="card" style="width: 25rem; margin: 2rem;">
+                <img src="https://th.bing.com/th/id/R.ee1a733ea4909ba1475a62e7505345eb?rik=e70ShwE6gXLLaA&pid=ImgRaw&r=0" class="card-img-top" alt="image2">
+                <div class="card-body">
+                  <h5 class="card-title">Vices</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				  <a class="btn btn-secondary" href="vices.html" role="button">Open List</a>
+                </div>
+              </div>
+        </div>
+    </div>
 </div>
 
 <div id="footer" class="container">
