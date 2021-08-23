@@ -58,6 +58,7 @@
 	width: 1200px;
 }
 
+
 	
 /*********************************************************************************/
 /* Image Style                                                                   */
@@ -106,7 +107,6 @@
 		margin-right: auto;
 		width: 100%;
 	  }
-
 
 /*********************************************************************************/
 /* Button Style                                                                  */
@@ -211,7 +211,6 @@
 		padding-left: 3px;
 	}
 
-
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
@@ -274,89 +273,176 @@
 
 
 /*********************************************************************************/
-/* Welcome                                                                       */
+/* About                                                                       */
 /*********************************************************************************/
 
-	#welcome
+	#about
 	{
 		position: relative;
 		padding: 7em 0em 7em 0em;
-		background: #111111 url(images/header-bg.png) no-repeat center;
+		background-color: #181818;
 		background-size: cover;
 		text-align: center;
 	}
 	
-	#welcome .container
+	#about .container
 	{
 		width: 1000px;
 		padding: 0px 100px;
 		color: rgba(255,255,255,0.8);
 	}
 	
-	#welcome a
+	#about a
 	{
 		color: rgba(255,255,255,1);
 	}
 
-	#welcome a:hover{
+	#about a:hover{
 		color: rgb(175, 175, 175);
 	}
 
 /*********************************************************************************/
-/* Welcome2                                                                       */
+/* Modelling                                                                       */
 /*********************************************************************************/
 
-#welcome2
+#modelling
 {
 	position: relative;
 	padding: 7em 0em 7em 0em;
-	background: #181818 url(images/header-bg.png) no-repeat center;
 	background-size: cover;
 	text-align: center;
 }
 
-#welcome2 .container
+#modelling .container
 {
 	width: 1000px;
 	padding: 0px 100px;
 	color: rgba(255,255,255,0.8);
 }
 
-#welcome2 a
+#modelling a
 {
 	color: rgba(255,255,255,1);
 }
 
-#welcome2 a:hover{
+#modelling a:hover{
 	color: rgb(175, 175, 175);
 }
 
 /*********************************************************************************/
-/* Welcome3                                                                      */
+/* Visualization                                                                      */
 /*********************************************************************************/
 
-#welcome3
+#visualization
 {
 	position: relative;
 	padding: 7em 0em 7em 0em;
-	background: #181818 url(images/header-bg.png) no-repeat center;
+	background-color: #181818;
 	background-size: cover;
 	text-align: center;
 }
 
-#welcome3 .container
+#visualization .container
 {
 	width: 1000px;
 	padding: 0px 100px;
 	color: rgba(255,255,255,0.8);
 }
 
-#welcome3 a
+#visualization a
 {
 	color: rgba(255,255,255,1);
 }
 
-#welcome3 a:hover{
+#visualization a:hover{
+	color: rgb(175, 175, 175);
+}
+
+/*********************************************************************************/
+/* Viewers                                                                      */
+/*********************************************************************************/
+
+#viewers
+{
+	position: relative;
+	padding: 7em 0em 7em 0em;
+	background-color: #141414;
+	background-size: cover;
+	text-align: center;
+}
+
+#viewers .container
+{
+	width: 1000px;
+	padding: 0px 100px;
+	color: rgba(255,255,255,0.8);
+}
+
+#viewers a
+{
+	color: rgba(255,255,255,1);
+}
+
+#viewers a:hover{
+	color: rgb(175, 175, 175);
+}
+
+
+/*********************************************************************************/
+/* Bibliography                                                                      */
+/*********************************************************************************/
+
+#bibliography
+{
+	position: relative;
+	padding: 7em 0em 7em 0em;
+	background-color: #181818;
+	background-size: cover;
+	text-align: center;
+}
+
+#bibliography .container
+{
+	width: auto;
+	padding: 0px 100px;
+	color: rgba(255,255,255,0.8);
+}
+
+#bibliography a
+{
+	color: rgba(255,255,255,1);
+}
+
+#bibliography a:hover{
+	color: rgb(175, 175, 175);
+}
+
+
+/*********************************************************************************/
+/* Virtues&vices                                                                       */
+/*********************************************************************************/
+
+#vv
+{
+	position: relative;
+	padding: 7em 0em 7em 0em;
+	background-size: cover;
+	text-align: center;
+}
+
+#vv .container
+{
+	width: 75%px;
+	padding: 0px 100px;
+	color: rgba(255,255,255,0.8);
+}
+
+#vv a
+{
+	color: rgba(255,255,255,1);
+}
+
+#vv a:hover{
 	color: rgb(175, 175, 175);
 }
 

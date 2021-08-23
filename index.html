@@ -28,16 +28,19 @@
 			  <a class="nav-link" href="#">Home</a>
 			</li>
 			<li class="nav-item">
-			  <a class="nav-link" href="#welcome1">About</a>
+			  <a class="nav-link" href="#about">About</a>
 			</li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#welcome2">Modelling & RDF</a>
+				<a class="nav-link" href="#modelling">Modelling & RDF</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#welcome3">Visualization</a>
+				<a class="nav-link" href="#visualization">Visualization</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#welcome4">Bibliography</a>
+				<a class="nav-link" href="#viewers">Viewers</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#bibliography">Bibliography</a>
 			  </li>
 		  </ul>
 		</div>
@@ -62,13 +65,13 @@
 		</div>
 		<div class="title">
 			<div id="outer">
-				<div class="inner"><a href="index.html#welcome2" class="button">Explore</a></div>
+				<div class="inner"><a href="index.html#about" class="button">Explore</a></div>
 			</div> 
 		</div>
 	</div>
 </div>
 
-<div id="welcome1">
+<div id="about">
 	<div class="container">
 		<div class="title">
 			<h2>About the topic</h2>
@@ -105,7 +108,7 @@
 	</div>
 </div>
 
-<div id="welcome2">
+<div id="modelling">
 	<div class="container">
 		<div class="title">
 			<h2>Modelling & RDF</h2>
@@ -167,56 +170,72 @@
 		</pre>
 	</div>
 </div>
-<div id="welcome3">
-	<div class="container-card">
+
+<div id="visualization">
+	<div class="container">
 		<div class="title">
 			<h2>Visualization</h2>
 		</div>
-		<p style="text-align: left;">In order to visualize the series of virtues and vices by Heinrich Aldegrever we used the IIIF manifests available on the website of Art Institute of Chicago and National Gallery of Art. 
-		</p> 
-		<p style="text-align: left;">The International Image Interoperability Framework (IIIF) is a model containing a set of open standards for presenting and annotating digital media and ensure rich access to it. Since images are data they can be described with metadata (data about data). With the use of web standarts and protocols such as Json, Web Annotation, Presentation API, IIIF provides information necessary for transmission of cultural knowledge, share of digital image data, migration across technology systems and enhanced online viewing environment. 
-		</p> 
-		<p style="text-align: left;">For the image delivery we embedded a mirador software which is open-source, web based viewing platform with the ability to zoom, display, compare and annotate images. IIIF manifests used in this project carries information needed for the mirador viewer to present digitised conent to the user, such as a title and other discriptive information about the object. 
-		</p> 
-		<p style="text-align: left;">We included the analysis of symbols of Chastity, Lust, Patience, Wrath, Modesty and Pride depicted by Aldegrever based on the research of Marie Murphy. This analysis provides an insight into the allegorical references used by the artist that aimed at appealing to viewers perception of sin and holiness. Therefore, the user has a possibility to learn the meaning of symbols and explore their visual represenation with the use of mirador. 
-		</p> 
+		<p style="text-align: left;">In order to visualize the series of virtues and vices by Heinrich Aldegrever we used the IIIF manifests available on the website 
+			of Art Institute of Chicago and National Gallery of Art.</p><br>
+
+		<p style="text-align: left;">The International Image Interoperability Framework (IIIF) is a model containing a set of open standards for presenting and annotating digital media and 
+			ensure rich access to it. Since images are data they can be described with metadata (data about data). With the use of web standarts and protocols such as 
+			Json, Web Annotation, Presentation API, IIIF provides information necessary for transmission of cultural knowledge, share of digital image data, migration 
+			across technology systems and enhanced online viewing environment.</p><br>
+			
+		<p style="text-align: left;">For the image delivery we embedded a Mirador software which is open-source, web based viewing platform with the ability to zoom, display, compare and 
+			annotate images. IIIF manifests used in this project carries information needed for the Mirador viewer to present digitised conent to the user, such
+			 as a title and other discriptive information about the object.</p><br>
+			
+		<p style="text-align: left;">We included the analysis of symbols of Chastity, Lust, Patience, Wrath, Modesty and Pride depicted by Aldegrever based on the research of Marie 
+			Murphy. This analysis provides an insight into the allegorical references used by the artist that aimed at appealing to viewers perception of 
+			sin and holiness. Therefore, the user has a possibility to learn the meaning of symbols and explore their visual represenation with the use of Mirador.
+			</p>
+		<br>	
 	</div>
 </div>
-		
+
+<div id="viewers">
+	<div class="container-card">
+		<div class="title">
+			<h2>Viewers</h2>
+		</div>
         <div class="row my-custom-row justify-content-center align-items-center gx-5">
             <div class="card" style="width: 25rem; margin: 2rem;">
-                <img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/341200/1357759/main-image" class="card-img-top" alt="image1">
+                <img src="images/virtuestest.jpg" class="card-img-top" alt="image1">
                 <div class="card-body">
                   <h5 class="card-title">Virtues</h5>
-                 
+                  <p class="card-text">Browse the Virtues of Heinrich Aldegrever.</p>
                   <a class="btn btn-secondary" href="virtues.html" role="button">Open List</a>
                 </div>
               </div>
               <div class="card" style="width: 25rem; margin: 2rem;">
-                <img src="https://th.bing.com/th/id/R.ee1a733ea4909ba1475a62e7505345eb?rik=e70ShwE6gXLLaA&pid=ImgRaw&r=0" class="card-img-top" alt="image2">
+                <img src="images/vicestest.jpg" class="card-img-top" alt="image2">
                 <div class="card-body">
                   <h5 class="card-title">Vices</h5>
-                 
+                  <p class="card-text">Browse the Vices of Heinrich Aldegrever.</p>
 				  <a class="btn btn-secondary" href="vices.html" role="button">Open List</a>
                 </div>
               </div>
         </div>
-<div id="welcome4">
+    </div>
+</div>
+
+<div id="bibliography">
 	<div class="container">
 		<div class="title">
 			<h2>Bibliography</h2>
 		</div>
-		<p style="text-align: left;">Ciula,A., Eide, Ø., Marras, C., Sahle,P., (2018), “Modelling: Thinking in Practice. An Introduction”, HSR Supplement, p.7-33
-			</p>
-		<p style="text-align: left;">Lattmann, C. (2018), “Iconizing the Digital Humanities. Models and Modeling from a Semiotic Perspective”, HSR Supplement, p.124-147 </p>
-		<p style="text-align: left;">Marchese, F.T., (2013), “Virtues and Vices: Examples of Medieval Knowledge Visualization”, 17th International Conference on Information Visualisation, p. 359-364</p>
-		<p style="text-align: left;">Murphy, J.M., (2017), “Allegory and interpretation in Heinrich Aldegrever's series virtues and vices”. Available at https://digital.library.temple.edu/digital/api/collection/p245801coll10/id/464757/download </p>
-		<p style="text-align: left;">Nugent, S.G., (2000), “Virtus or Virago? The Female Personifications of Prudentius’ Psychomachia,” in Virtue & Vice: The Personifications in the Index of Christian Art.,  Vol. 1, ed. Colum Hourihane, Princeton: Princeton University Press, p. 13-28</p>
-		<p style="text-align: left;">Sahle, P., (2018), “How to Recognize a Model When You See One. Or: Claudia Schiffer and the Climate Change”, HSR Supplement, p.183-193 </p>
-		
+		<ul class="list-group" style="text-align: left;">
+			<li class="list-group-item list-group-item-secondary">Ciula, A., Eide, Ø., Marras, C., Sahle,P., (2018), “Modelling: Thinking in Practice. An Introduction”, HSR Supplement, p.7-33</li>
+			<li class="list-group-item list-group-item-dark">Lattmann, C. (2018), “Iconizing the Digital Humanities. Models and Modeling from a Semiotic Perspective”, HSR Supplement, p.124-147</li>
+			<li class="list-group-item list-group-item-secondary">Marchese, F.T., (2013), “Virtues and Vices: Examples of Medieval Knowledge Visualization”, 17th International Conference on Information Visualisation, p. 359-364</li>
+			<li class="list-group-item list-group-item-dark">Murphy, J.M., (2017), “Allegory and interpretation in Heinrich Aldegrever's series virtues and vices”. Available <a href="https://digital.library.temple.edu/digital/api/collection/p245801coll10/id/464757/download">here</a></li>
+			<li class="list-group-item list-group-item-secondary">Nugent, S.G., (2000), “Virtus or Virago? The Female Personifications of Prudentius’ Psychomachia,” in Virtue & Vice: The Personifications in the Index of Christian Art., Vol. 1, ed. Colum Hourihane, Princeton: Princeton University Press, p. 13-28</li>
+			<li class="list-group-item list-group-item-dark">Sahle, P., (2018), “How to Recognize a Model When You See One. Or: Claudia Schiffer and the Climate Change”, HSR Supplement, p.183-193</li>  
+		</ul>
 	</div>
-</div>
-    </div>
 </div>
 
 <div id="footer" class="container">
