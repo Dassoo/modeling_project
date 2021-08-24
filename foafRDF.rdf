@@ -2,7 +2,7 @@
 
 <https://dassoo.github.io//foafRDF.rdf> 
     a foaf: Person ;
-    foaf: FirstName: "Heinrich";
-    foaf: LastName: "Aldegrever".  
+    foaf: FirstName "Heinrich";
+    foaf: LastName "Aldegrever".  
 
 
