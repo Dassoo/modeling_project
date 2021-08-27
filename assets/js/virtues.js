@@ -8,7 +8,7 @@ var MiradorList = [
 "https://api.artic.edu/api/v1/artworks/77402/manifest.json",
 ];
 
-for (i=1;i<8;i++){
+for (i=1;i<MiradorList.length+1;i++){
 var mirador = Mirador.viewer({
     "id": "mirador" + i,
   "windows": [
