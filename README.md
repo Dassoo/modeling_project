@@ -8,6 +8,8 @@ It features a little website with CSS and Mirador plus an RDF file for semantic 
 
 **IMPORTANT**: For a better user experience, due to GitHub CSS loading issue, I recommend to download the content and open it through a local webserver (ex. using the "Live Server" extension on Visual Studio Code).
 
+To be fixed: images on the Mirador viewers are somehow tiny, will be updated once I will find out why.
+
 Tools used: 
   > Visual Studio Code: https://code.visualstudio.com/ <br />
   > Mirador: https://github.com/ProjectMirador/mirador <br />
